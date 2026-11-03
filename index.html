@@ -1,10 +1,15 @@
-<!DOCTYPE html>
 <html>
+<h2>Functions with strings to integer conversion</h2>
 <body>
 <script>
-  var result = prompt("enter your name");
-  document.write("Hello" + result);
+  function compute(num1 , num2){
+    sum = num1 + num2;
+    return sum;
+  }
+  num1 = prompt("Enter the first number");
+  num2 = prompt("Enter the second number");
+  result = compute(Number(num1), Number(num2));
+  document.write("The sum is" + result);
 </script>
-
 </body>
 </html>
